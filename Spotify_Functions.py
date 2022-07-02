@@ -1,6 +1,7 @@
 import numpy as np
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
+import matplotlib.pyplot as plt
 
 # This file contains all the functions used in spotify_api.py and data_analysis.py
 with open('IDs.txt') as read:
