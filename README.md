@@ -6,7 +6,7 @@ This is my first forray into the Spotify API. Using a playlist of all my music, 
 3. Trained XGBoost
 
 ## Results
-As expected, the XGBoost (only trained model), performed the best. The following table provides the mean squared error (MAE) for each model type in the testing set:
+As expected, the XGBoost (only trained model), performed the best. The following table provides the mean absolute error (MAE) for each model type in the testing set:
 
 | Model | MAE |
 | :----:  | --- |
