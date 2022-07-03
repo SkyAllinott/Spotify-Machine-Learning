@@ -18,7 +18,7 @@ With popularity being bounded between 0 and 100, these errors are relatively lar
 
 ![distribution_y](https://user-images.githubusercontent.com/52394699/177019386-e07ef75a-f605-473d-b508-5c6417eec91a.png)
 
-This lead to all of the models (XGBoost displayed) performing poorly on songs with a 0 popularity:
+I choose to ignore this feature of the data, and approached it as a standard regression problem to see how each model dealt with this distribution. The distribution lead to all of the models (XGBoost displayed, but common to all 3) performing poorly on songs with a 0 popularity:
 
 ![XGBoost](https://user-images.githubusercontent.com/52394699/177019421-ef7748f1-1d82-429f-a262-8573a46de32c.png)
 
